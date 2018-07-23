@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.articleBody {
+  p, blockquote {
+    font-family: 'Open Sans', 'Tahoma', Helvetica, sans-serif;
+    font-size: 0.85rem;
+  }
+
+  ul,
+  ol {
+    font-family: 'Open Sans', 'Tahoma', Helvetica, sans-serif;
+    font-size: 0.9rem;
+
+    li {
+      font-size: 0.8rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+
+  iframe {
+    display: block;
+    margin: 0 auto;
+  }
+
+  pre {
+    width: 70%;
+    margin: 0 15% 1.5rem;
+  }
+
+  .languageLabel {
+    width: 70%;
+    color: rgba(255, 87, 0, 0.75);
+    margin: 0.6rem 15% 0.2rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Tahoma', 'Arial Condensed', Helvetica, sans-serif;
+    font-size: 0.7rem;
+  }
+
+  .gatsby-highlight-code-line {
+    background-color: rgba(223, 203, 143, 0.25);
+    display: block;
+    margin-right: -1rem;
+    margin-left: -1rem;
+    padding-right: 1rem;
+    padding-left: 0.75rem;
+    border-left: 0.25rem solid #f99;
+  }
+}
